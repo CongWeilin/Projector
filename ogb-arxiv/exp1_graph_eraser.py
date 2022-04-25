@@ -228,7 +228,7 @@ def average_weights(w):
     return w_avg
 
 average_params = average_weights([model.state_dict() for model in output_models])
-model = GNN(x_dims, h_dims, y_dims, device, args).to(device)
+model = GNN(x_dims, y_dims, device, args).to(device)
 model.load_state_dict(average_params)
 
 
