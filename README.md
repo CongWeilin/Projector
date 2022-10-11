@@ -1,5 +1,4 @@
-# Projector
- NeurIPS22 Graph Representation Unlearning
+# Projector for Graph Representation Unlearning
 
 The repository includeds all code that can be used to reproduce the experiment results in the paper. 
 
